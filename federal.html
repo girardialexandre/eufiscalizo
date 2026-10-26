@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agenda e Gastos do Presidente</title>
+<meta name="description" content="Acompanhamento independente da agenda oficial do Presidente da República e dos gastos da Presidência, com dados públicos.">
+<link rel="stylesheet" href="estilo.css">
+<style>
+  .abas { display: flex; gap: 6px; border-bottom: 1px solid var(--border); margin-bottom: 20px; }
+  .aba { background: none; border: 0; border-bottom: 3px solid transparent; padding: 10px 14px; font: inherit; font-weight: 600; color: var(--muted); cursor: pointer; }
+  .aba[aria-selected="true"] { color: var(--text); border-bottom-color: var(--accent); }
+  .painel[hidden] { display: none; }
+  .linha-filtros { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 16px; }
+  .linha-filtros label { font-weight: 600; font-size: .9rem; }
+  .linha-filtros select, .linha-filtros input { padding: 9px 12px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface); color: var(--text); font: inherit; }
+  .linha-filtros input { flex: 1 1 220px; }
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-bottom: 16px; }
+  .kpi { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; }
+  .kpi b { display: block; font-size: 1.5rem; line-height: 1.15; font-variant-numeric: tabular-nums; }
+  .kpi small { color: var(--muted); }
+  .cartoes2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; margin-bottom: 16px; }
+  .bloco { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; min-width: 0; }
+  .bloco h3 { margin: 0 0 4px; font-size: 1rem; }
+  .bloco .nota { color: var(--muted); font-size: .82rem; margin: 0 0 12px; }
+  .barras { display: grid; gap: 6px; }
+  .barra-linha { display: grid; grid-template-columns: 1fr auto; grid-template-areas: "rot rot" "tri v"; column-gap: 8px; row-gap: 3px; align-items: center; font-size: .86rem; }
+  .barra-linha .rot { grid-area: rot; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .barra-linha .trilho { grid-area: tri; }
+  .barra-linha .v { grid-area: v; }
+  .trilho { background: var(--border); border-radius: 4px; height: 10px; overflow: hidden; }
+  .trilho i { display: block; height: 100%; background: var(--accent); border-radius: 4px; }
+  .barra-linha .v { font-variant-numeric: tabular-nums; color: var(--muted); white-space: nowrap; }
+  .dia { margin-bottom: 14px; }
+  .dia h4 { margin: 0 0 6px; font-size: .9rem; color: var(--muted); }
+  .comp { display: grid; grid-template-columns: 56px 1fr; gap: 10px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; margin-bottom: 6px; }
+  .comp time { font-variant-numeric: tabular-nums; color: var(--muted); font-size: .88rem; }
+  .comp .tit { font-weight: 600; }
+  .comp .tit a { color: var(--text); text-decoration: none; }
+  .comp .tit a:hover { text-decoration: underline; }
+  .comp .loc { color: var(--muted); font-size: .85rem; }
+  .tag { display: inline-block; font-size: .72rem; font-weight: 600; padding: 2px 8px; border-radius: 999px; background: var(--border); color: var(--text); margin-left: 6px; vertical-align: middle; }
+  .aviso { background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--s-parcial); border-radius: 10px; padding: 14px 16px; margin-bottom: 16px; font-size: .92rem; }
+  .aviso ol { margin: 8px 0 0; padding-left: 20px; }
+  .aviso li { margin-bottom: 4px; }
+  table.tab { width: 100%; border-collapse: collapse; font-size: .86rem; }
+  table.tab th, table.tab td { text-align: left; padding: 7px 6px; border-bottom: 1px solid var(--border); }
+  table.tab td.n, table.tab th.n { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .rolagem { overflow-x: auto; }
+  .mais { background: none; border: 1px solid var(--border); color: var(--text); border-radius: 8px; padding: 8px 14px; font: inherit; cursor: pointer; }
+  code { background: var(--border); padding: 1px 5px; border-radius: 4px; font-size: .85em; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="nav" aria-label="Seções">
+    <a href="index.html">Promessas</a>
+    <a href="federal.html" aria-current="page">Agenda e gastos do Presidente</a>
+  </nav>
+  <header>
+    <h1>Agenda e gastos do Presidente</h1>
+    <p class="sub">Acompanhamento da agenda oficial do Presidente da República e dos gastos da Presidência, a partir de dados públicos.</p>
+  </header>
+
+  <div class="abas" role="tablist">
+    <button class="aba" role="tab" id="aba-agenda" aria-controls="painel-agenda" aria-selected="true">Agenda</button>
+    <button class="aba" role="tab" id="aba-gastos" aria-controls="painel-gastos" aria-selected="false">Gastos</button>
+  </div>
+
+  <section class="painel" id="painel-agenda" role="tabpanel" aria-labelledby="aba-agenda">
+    <p class="meta-line" id="agenda-meta"></p>
+    <div class="linha-filtros">
+      <label for="agenda-periodo">Período</label>
+      <select id="agenda-periodo"></select>
+    </div>
+    <div class="kpis" id="agenda-kpis"></div>
+    <div class="cartoes2">
+      <div class="bloco"><h3>Tipos de compromisso</h3><p class="nota">Classificação automática pelo título.</p><div class="barras" id="agenda-tipos"></div></div>
+      <div class="bloco"><h3>Destinos visitados</h3><p class="nota">Cidades de chegada, exceto Brasília.</p><div class="barras" id="agenda-destinos"></div></div>
+      <div class="bloco"><h3>Interlocutores mais frequentes</h3><p class="nota">Títulos de reuniões e audiências que mais se repetem.</p><div class="barras" id="agenda-interlocutores"></div></div>
+    </div>
+    <div class="linha-filtros">
+      <input id="agenda-busca" type="search" placeholder="Buscar na agenda (ministro, cidade, tema...)" aria-label="Buscar na agenda">
+    </div>
+    <div class="chips" id="agenda-chips"></div>
+    <div id="agenda-lista"></div>
+    <div id="agenda-mais-wrap" style="text-align:center;margin:12px 0"></div>
+  </section>
+
+  <section class="painel" id="painel-gastos" role="tabpanel" aria-labelledby="aba-gastos" hidden>
+    <div id="gastos-conteudo"></div>
+  </section>
+
+  <footer>
+    <h2>Fontes e limitações</h2>
+    <ul>
+      <li>Agenda: publicação oficial diária do <a href="https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica" target="_blank" rel="noopener">Palácio do Planalto</a>. Compromissos privados e de fim de semana em geral não são detalhados, e a lei permite atualizar a agenda em até 7 dias.</li>
+      <li>Gastos: <a href="https://api.portaldatransparencia.gov.br/swagger-ui/index.html" target="_blank" rel="noopener">API de dados do Portal da Transparência</a> (CGU). Cartões e viagens são publicados com algumas semanas de atraso.</li>
+      <li>"Dias úteis sem compromisso publicado" conta dias de segunda a sexta sem nenhum item na agenda oficial; não desconta feriados e não significa ausência de trabalho.</li>
+      <li>Os dados são coletados automaticamente todas as noites. Este é um projeto independente e apartidário.</li>
+    </ul>
+  </footer>
+</div>
+<script src="dados/agenda.js"></script>
+<script src="dados/gastos.js"></script>
+<script src="federal.js"></script>
+</body>
+</html>

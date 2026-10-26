@@ -1,0 +1,38 @@
+window.ESFERAS = window.ESFERAS || {};
+window.ESFERAS.BA = {
+  nome: "Bahia",
+  governante: "Jerônimo Rodrigues (PT)",
+  vice: "Geraldo Júnior",
+  eleicao: "Reeleito no 1º turno",
+  fontePlano: "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/50017113080",
+  propostas: [
+    { id: "ba-rodovias", eixo: "Infraestrutura", titulo: "4.000 km de rodovias",
+      plano: "Pavimentar e recuperar 4.000 km de rodovias baianas em todos os territórios de identidade.",
+      criterio: "4.000 km de rodovias pavimentados ou recuperados no mandato.",
+      verificar: "Secretaria de Infraestrutura (Seinfra-BA); Portal da Transparência BA." },
+    { id: "ba-ponte-itaparica", eixo: "Infraestrutura", titulo: "Ponte Salvador–Itaparica",
+      plano: "Avançar na construção da Ponte Salvador–Ilha de Itaparica.",
+      criterio: "Obra em execução com percentual de avanço publicado (o plano promete avanço, não conclusão).",
+      verificar: "Seinfra-BA; concessionária da ponte." },
+    { id: "ba-transmissao", eixo: "Infraestrutura", titulo: "6.000 km de linhas de transmissão",
+      plano: "Articular com o Governo Federal a conclusão de 6.000 km de linhas de transmissão para escoar energia renovável.",
+      criterio: "Linhas concluídas no estado (depende da União e de concessionárias; o plano promete articulação).",
+      verificar: "Aneel; ONS; Ministério de Minas e Energia." },
+    { id: "ba-hospitais", eixo: "Saúde", titulo: "5 novos hospitais e maternidades",
+      plano: "Implantar hospitais e maternidades estaduais em Jacobina, Itapetinga, Valença, Amargosa e Serrinha.",
+      criterio: "As cinco unidades inauguradas e funcionando.",
+      verificar: "Secretaria da Saúde (Sesab); CNES." },
+    { id: "ba-cer", eixo: "Saúde", titulo: "20 Centros de Reabilitação",
+      plano: "Construir 20 novos Centros Especializados em Reabilitação (CER) e ampliar o acesso a órteses e próteses.",
+      criterio: "20 CER construídos e habilitados.",
+      verificar: "Sesab; CNES (Ministério da Saúde)." },
+    { id: "ba-caps", eixo: "Saúde", titulo: "38 CAPS e 4 unidades de acolhimento",
+      plano: "Construir 38 novos Centros de Atenção Psicossocial e 4 Unidades de Acolhimento com os municípios.",
+      criterio: "38 CAPS e 4 unidades de acolhimento em funcionamento.",
+      verificar: "Sesab; CNES." },
+    { id: "ba-laboratorios", eixo: "Saúde", titulo: "5 laboratórios regionais",
+      plano: "Implantar 5 novas unidades regionais de vigilância laboratorial.",
+      criterio: "5 laboratórios regionais em funcionamento.",
+      verificar: "Sesab; Lacen-BA." }
+  ]
+};

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Monitor de Promessas</title>
+<meta name="description" content="Acompanhamento independente das propostas do plano de governo registrado no TSE.">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<div class="wrap">
+  <nav class="nav" aria-label="Seções">
+    <a href="index.html" aria-current="page">Promessas</a>
+    <a href="federal.html">Agenda e gastos do Presidente</a>
+  </nav>
+  <header>
+    <div class="esfera">
+      <label for="seletor">Governo:</label>
+      <select id="seletor" aria-label="Escolher governo"></select>
+    </div>
+    <h1 id="titulo"></h1>
+    <p class="sub" id="subtitulo"></p>
+    <p class="meta-line" id="metaLinha"></p>
+  </header>
+
+  <div class="gov" id="gov" hidden></div>
+
+  <section class="resumo" aria-label="Resumo">
+    <strong id="totalTxt"></strong>
+    <div class="barra" id="barra"></div>
+    <div class="contadores" id="contadores"></div>
+  </section>
+
+  <div class="filtros">
+    <input id="busca" type="search" placeholder="Buscar proposta..." aria-label="Buscar proposta">
+  </div>
+  <div class="chips" id="chips"></div>
+
+  <main id="lista"></main>
+
+  <footer>
+    <h2>Metodologia</h2>
+    <ul>
+      <li>As propostas foram extraídas do plano de governo oficial registrado no TSE (<a id="linkPlano" target="_blank" rel="noopener">ver documento desta esfera</a>). Os planos estaduais trazem as principais propostas de cada governador eleito, não a lista completa.</li>
+      <li>Cada proposta tem um critério de cumprimento definido antes da avaliação, para que o status dependa de fatos verificáveis e não de opinião.</li>
+      <li>Toda mudança de status deve vir acompanhada de evidência com link para fonte oficial.</li>
+      <li>Este é um projeto independente e apartidário de acompanhamento cidadão.</li>
+    </ul>
+  </footer>
+</div>
+
+<script src="dados.js"></script>
+<script src="estados/ac.js"></script>
+<script src="estados/al.js"></script>
+<script src="estados/ap.js"></script>
+<script src="estados/am.js"></script>
+<script src="estados/ba.js"></script>
+<script src="estados/ce.js"></script>
+<script src="estados/df.js"></script>
+<script src="estados/es.js"></script>
+<script src="estados/go.js"></script>
+<script src="estados/ma.js"></script>
+<script src="estados/mt.js"></script>
+<script src="estados/ms.js"></script>
+<script src="estados/mg.js"></script>
+<script src="estados/pa.js"></script>
+<script src="estados/pb.js"></script>
+<script src="estados/pr.js"></script>
+<script src="estados/pe.js"></script>
+<script src="estados/pi.js"></script>
+<script src="estados/rj.js"></script>
+<script src="estados/rn.js"></script>
+<script src="estados/rs.js"></script>
+<script src="estados/ro.js"></script>
+<script src="estados/rr.js"></script>
+<script src="estados/sc.js"></script>
+<script src="estados/sp.js"></script>
+<script src="estados/se.js"></script>
+<script src="estados/to.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
