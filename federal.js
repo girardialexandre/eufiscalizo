@@ -144,7 +144,9 @@
   // ---------- GASTOS ----------
   const G = window.GASTOS;
   function renderGastosVazio() {
-    $("gastos-conteudo").innerHTML = `<div class="aviso"><b>Os gastos ainda não foram ativados.</b>
+    const erro = G && G.erros && G.erros.length
+      ? `<div class="aviso"><b>A última coleta de gastos (${fmtData(G.atualizadoEm)}) falhou:</b> ${G.erros.map(esc).join("; ")}</div>` : "";
+    $("gastos-conteudo").innerHTML = erro + `<div class="aviso"><b>Os gastos ainda não foram ativados.</b>
       <p style="margin:6px 0 0">Eles vêm da API oficial do Portal da Transparência, que exige uma chave gratuita. Para ativar:</p>
       <ol>
         <li>Cadastre seu e-mail em <a href="https://portaldatransparencia.gov.br/api-de-dados/cadastrar-email" target="_blank" rel="noopener">portaldatransparencia.gov.br/api-de-dados</a> (login gov.br) e receba a chave.</li>
