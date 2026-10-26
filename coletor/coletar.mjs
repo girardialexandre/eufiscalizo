@@ -25,7 +25,10 @@ const CONFIG = {
   maxRequisicoesAPI: Number(process.env.MAX_REQ || 3000) // limite por execução; o resto fica para o dia seguinte
 };
 
-const UA = "monitor-promessas (+https://github.com) Node";
+const UA = "Mozilla/5.0 (compatible; eufiscalizo/1.0; +https://github.com/girardialexandre/eufiscalizo)";
+// Tempo máximo de espera por consulta (evita que a coleta trave se o servidor não responder)
+const TEMPO_AGENDA_MS = 20000;
+const TEMPO_API_MS = 60000;
 const esperar = ms => new Promise(r => setTimeout(r, ms));
 const hojeBR = () => new Date(Date.now() - 3 * 3600e3).toISOString().slice(0, 10);
 const somaDias = (iso, n) => { const d = new Date(iso + "T12:00:00Z"); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0, 10); };
@@ -50,7 +53,7 @@ async function gravarJS(arquivo, nome, obj, comentario) {
 async function buscarDiaAgenda(data) {
   for (let t = 1; t <= 4; t++) {
     try {
-      const r = await fetch(`${CONFIG.agendaURL}/json/${data}`, { headers: { "User-Agent": UA, Accept: "application/json" } });
+      const r = await fetch(`${CONFIG.agendaURL}/json/${data}`, { headers: { "User-Agent": UA, Accept: "application/json" }, signal: AbortSignal.timeout(TEMPO_AGENDA_MS) });
       if (!r.ok) throw new Error("HTTP " + r.status);
       const j = await r.json();
       const dia = Array.isArray(j) ? j.find(x => x.isSelected) : null;
@@ -82,7 +85,17 @@ async function coletarAgenda() {
 
   const lista = [...datas].sort();
   log(`Agenda: ${lista.length} dias para consultar`);
-  let i = 0, falhas = 0;
+
+  // Teste rápido: se o site do Planalto não responder, desiste logo em vez de travar
+  try {
+    const t0 = Date.now();
+    await buscarDiaAgenda(hoje);
+    log(`Agenda: site do Planalto respondeu em ${Date.now() - t0} ms`);
+  } catch (e) {
+    throw new Error(`site do Planalto não respondeu a partir deste servidor (${e.message}). Dados anteriores mantidos.`);
+  }
+
+  let i = 0, falhas = 0, feitos = 0;
   async function trabalhador() {
     while (i < lista.length) {
       const data = lista[i++];
@@ -90,6 +103,7 @@ async function coletarAgenda() {
         const itens = await buscarDiaAgenda(data);
         if (itens.length) dias[data] = itens; else delete dias[data];
       } catch (e) { falhas++; console.warn(e.message); }
+      if (++feitos % 100 === 0) log(`Agenda: ${feitos}/${lista.length} dias consultados (${falhas} falhas)`);
       await esperar(150);
     }
   }
@@ -123,7 +137,13 @@ async function api(caminho, params) {
   const url = `${CONFIG.apiURL}${caminho}?` + new URLSearchParams(params);
   for (let t = 1; t <= 5; t++) {
     requisicoes++;
-    const r = await fetch(url, { headers: { "chave-api-dados": process.env.PORTAL_API_KEY, Accept: "application/json", "User-Agent": UA } });
+    let r;
+    try {
+      r = await fetch(url, { headers: { "chave-api-dados": process.env.PORTAL_API_KEY.trim(), Accept: "application/json", "User-Agent": UA }, signal: AbortSignal.timeout(TEMPO_API_MS) });
+    } catch (e) {
+      if (t === 5) throw new Error(`API sem resposta em ${caminho} (${e.message})`);
+      await esperar(5000 * t); continue;
+    }
     if (r.ok) { await esperar(700); return r.json(); }
     if (r.status === 401 || r.status === 403) throw new Error(`API recusou a chave (HTTP ${r.status}). Confira o segredo PORTAL_API_KEY.`);
     if (r.status === 400) throw new Error(`API: parâmetros inválidos em ${caminho} (${await r.text()})`.slice(0, 300));
