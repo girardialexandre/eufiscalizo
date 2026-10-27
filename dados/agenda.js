@@ -1,11 +1,11 @@
 // Gerado pelo coletor (coletor/coletar.mjs). Não editar à mão.
 // Fonte: agenda oficial do Presidente da República, Palácio do Planalto.
 window.AGENDA = {
- "atualizadoEm": "2026-10-26",
+ "atualizadoEm": "2026-10-27",
  "fonte": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica",
  "cobertura": {
   "de": "2023-01-01",
-  "ate": "2026-10-26"
+  "ate": "2026-10-27"
  },
  "dias": {
   "2023-01-01": [
@@ -34878,6 +34878,38 @@ window.AGENDA = {
     "Sanção do PLP nº 186/2026 (limites do MEI e remissão de créditos da União) e envio de PEC sobre tarifa zero no transporte coletivo aos fins de semana e feriados",
     "Palácio do Planalto",
     "sancao-do-plp-no-186-2026-limites-do-mei-e-remissao-de-creditos-da-uniao-e-envio-de-pec-sobre-tarifa-zero-no-transporte-coletivo-aos-fins-de-semana-e-feriados"
+   ]
+  ],
+  "2026-10-26": [
+   [
+    "01h30",
+    "Partida para Brasília",
+    "Aeroporto de Congonhas",
+    "partida-para-brasilia"
+   ],
+   [
+    "03h00",
+    "Chegada a Brasília",
+    "Base Aérea de Brasília",
+    "chegada-a-brasilia"
+   ],
+   [
+    "11h00",
+    "Chefe do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
+    "Palácio da Alvorada",
+    "chefe-do-gabinete-pessoal-do-presidente-da-republica-oswaldo-malatesta"
+   ],
+   [
+    "15h00",
+    "Ministro das Relações Exteriores, Mauro Vieira",
+    "Palácio da Alvorada",
+    "ministro-das-relacoes-exteriores-mauro-vieira"
+   ],
+   [
+    "16h00",
+    "Ministro da Defesa, José Mucio",
+    "Palácio da Alvorada",
+    "ministro-da-defesa-jose-mucio"
    ]
   ]
  }
