@@ -1,11 +1,11 @@
 // Gerado pelo coletor (coletor/coletar.mjs). Não editar à mão.
 // Fonte: agenda oficial do Presidente da República, Palácio do Planalto.
 window.AGENDA = {
- "atualizadoEm": "2026-10-27",
+ "atualizadoEm": "2026-10-28",
  "fonte": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica",
  "cobertura": {
   "de": "2023-01-01",
-  "ate": "2026-10-27"
+  "ate": "2026-10-28"
  },
  "dias": {
   "2023-01-01": [
@@ -34901,15 +34901,47 @@ window.AGENDA = {
    ],
    [
     "15h00",
+    "Telefonema com a Presidenta do México, Claudia Sheinbaum",
+    "Palácio da Alvorada",
+    "telefonema-com-a-presidenta-do-mexico-claudia-sheinbaum"
+   ],
+   [
+    "15h30",
     "Ministro das Relações Exteriores, Mauro Vieira",
     "Palácio da Alvorada",
     "ministro-das-relacoes-exteriores-mauro-vieira"
    ],
    [
-    "16h00",
+    "16h30",
+    "Presidente do Senado Federal e do Congresso Nacional, Senador Davi Alcolumbre, e Presidente da Câmara dos Deputados, Deputado Hugo Motta",
+    "Palácio da Alvorada",
+    "presidente-do-senado-federal-e-do-congresso-nacional-senador-davi-alcolumbre-e-presidente-da-camara-dos-deputados-deputado-hugo-motta"
+   ]
+  ],
+  "2026-10-27": [
+   [
+    "09h30",
     "Ministro da Defesa, José Mucio",
     "Palácio da Alvorada",
     "ministro-da-defesa-jose-mucio"
+   ],
+   [
+    "10h00",
+    "Ministra da Casa Civil, Miriam Belchior",
+    "Palácio da Alvorada",
+    "ministra-da-casa-civil-miriam-belchior"
+   ],
+   [
+    "15h00",
+    "Chefe do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
+    "Palácio da Alvorada",
+    "chefe-do-gabinete-pessoal-do-presidente-da-republica-oswaldo-malatesta"
+   ],
+   [
+    "15h30",
+    "Ministro da Secretaria de Comunicação Social, Sidônio Palmeira, e Secretário de Imprensa da Secretaria de Comunicação Social, Laércio Portela",
+    "Palácio da Alvorada",
+    "ministro-da-secretaria-de-comunicacao-social-sidonio-palmeira"
    ]
   ]
  }

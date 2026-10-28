@@ -17,5 +17,5 @@ window.GASTOS = {
  "erros": [
   "API recusou a chave (HTTP 401). Confira o segredo PORTAL_API_KEY."
  ],
- "atualizadoEm": "2026-10-27"
+ "atualizadoEm": "2026-10-28"
 };
