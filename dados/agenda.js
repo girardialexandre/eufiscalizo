@@ -1,11 +1,11 @@
 // Gerado pelo coletor (coletor/coletar.mjs). Não editar à mão.
 // Fonte: agenda oficial do Presidente da República, Palácio do Planalto.
 window.AGENDA = {
- "atualizadoEm": "2026-10-29",
+ "atualizadoEm": "2026-10-30",
  "fonte": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica",
  "cobertura": {
   "de": "2023-01-01",
-  "ate": "2026-10-29"
+  "ate": "2026-10-30"
  },
  "dias": {
   "2023-01-01": [
@@ -34952,13 +34952,19 @@ window.AGENDA = {
     "ministro-das-relacoes-exteriores-mauro-vieira"
    ],
    [
-    "10h30",
+    "11h00",
+    "Ministro da Secretaria de Comunicação Social, Sidônio Palmeira",
+    "Palácio da Alvorada",
+    "ministro-da-secretaria-de-comunicacao-social-sidonio-palmeira"
+   ],
+   [
+    "12h00",
     "Ministra da Casa Civil, Miriam Belchior",
     "Palácio da Alvorada",
     "ministra-da-casa-civil-miriam-belchior"
    ],
    [
-    "15h00",
+    "16h00",
     "Chefe do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
     "Palácio da Alvorada",
     "chefe-do-gabinete-pessoal-do-presidente-da-republica-oswaldo-malatesta"
