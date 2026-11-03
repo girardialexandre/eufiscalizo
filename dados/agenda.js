@@ -1,11 +1,11 @@
 // Gerado pelo coletor (coletor/coletar.mjs). Não editar à mão.
 // Fonte: agenda oficial do Presidente da República, Palácio do Planalto.
 window.AGENDA = {
- "atualizadoEm": "2026-11-02",
+ "atualizadoEm": "2026-11-03",
  "fonte": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica",
  "cobertura": {
   "de": "2023-01-01",
-  "ate": "2026-11-02"
+  "ate": "2026-11-03"
  },
  "dias": {
   "2023-01-01": [
@@ -34968,6 +34968,32 @@ window.AGENDA = {
     "Chefe do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
     "Palácio da Alvorada",
     "chefe-do-gabinete-pessoal-do-presidente-da-republica-oswaldo-malatesta"
+   ]
+  ],
+  "2026-11-03": [
+   [
+    "10h00",
+    "Chefe do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
+    "Palácio da Alvorada",
+    "chefe-do-gabinete-pessoal-do-presidente-da-republica-oswaldo-malatesta"
+   ],
+   [
+    "15h00",
+    "Ministra da Casa Civil, Miriam Belchior",
+    "Palácio da Alvorada",
+    "ministra-da-casa-civil-miriam-belchior"
+   ],
+   [
+    "16h00",
+    "Ministro do Meio Ambiente e Mudança do Clima, João Paulo Capobianco",
+    "Palácio da Alvorada",
+    "ministro-do-meio-ambiente-e-mudanca-do-clima-joao-paulo-capobianco"
+   ],
+   [
+    "17h00",
+    "Ministro do Desenvolvimento, Indústria, Comércio e Serviços, Márcio Elias Rosa",
+    "Palácio da Alvorada",
+    "ministro-do-desenvolvimento-industria-comercio-e-servicos-marcio-elias-rosa"
    ]
   ]
  }
