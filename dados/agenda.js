@@ -1,11 +1,11 @@
 // Gerado pelo coletor (coletor/coletar.mjs). Não editar à mão.
 // Fonte: agenda oficial do Presidente da República, Palácio do Planalto.
 window.AGENDA = {
- "atualizadoEm": "2026-11-03",
+ "atualizadoEm": "2026-11-04",
  "fonte": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica",
  "cobertura": {
   "de": "2023-01-01",
-  "ate": "2026-11-03"
+  "ate": "2026-11-04"
  },
  "dias": {
   "2023-01-01": [
@@ -34984,13 +34984,45 @@ window.AGENDA = {
     "ministra-da-casa-civil-miriam-belchior"
    ],
    [
-    "16h00",
+    "17h00",
+    "Partida para São Paulo",
+    "Base Aérea de Brasília",
+    "partida-para-sao-paulo"
+   ],
+   [
+    "18h30",
+    "Chegada a São Paulo",
+    "Aeroporto de Congonhas – São Paulo",
+    "chegada-a-sao-paulo"
+   ]
+  ],
+  "2026-11-04": [
+   [
+    "10h00",
+    "Partida para Brasília",
+    "Aeroporto de Congonhas",
+    "partida-para-brasilia"
+   ],
+   [
+    "11h30",
+    "Chegada a Brasília",
+    "Base Aérea de Brasília",
+    "chegada-a-brasilia"
+   ],
+   [
+    "14h40",
+    "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcelo Weick",
+    "Palácio da Alvorada",
+    "secretario-especial-para-assuntos-juridicos-da-casa-civil-marcelo-weick"
+   ],
+   [
+    "15h00",
     "Ministro do Meio Ambiente e Mudança do Clima, João Paulo Capobianco",
     "Palácio da Alvorada",
     "ministro-do-meio-ambiente-e-mudanca-do-clima-joao-paulo-capobianco"
    ],
    [
-    "17h00",
+    "16h00",
     "Ministro do Desenvolvimento, Indústria, Comércio e Serviços, Márcio Elias Rosa",
     "Palácio da Alvorada",
     "ministro-do-desenvolvimento-industria-comercio-e-servicos-marcio-elias-rosa"
