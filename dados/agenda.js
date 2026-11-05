@@ -1,11 +1,11 @@
 // Gerado pelo coletor (coletor/coletar.mjs). Não editar à mão.
 // Fonte: agenda oficial do Presidente da República, Palácio do Planalto.
 window.AGENDA = {
- "atualizadoEm": "2026-11-04",
+ "atualizadoEm": "2026-11-05",
  "fonte": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica",
  "cobertura": {
   "de": "2023-01-01",
-  "ate": "2026-11-04"
+  "ate": "2026-11-05"
  },
  "dias": {
   "2023-01-01": [
@@ -35026,6 +35026,26 @@ window.AGENDA = {
     "Ministro do Desenvolvimento, Indústria, Comércio e Serviços, Márcio Elias Rosa",
     "Palácio da Alvorada",
     "ministro-do-desenvolvimento-industria-comercio-e-servicos-marcio-elias-rosa"
+   ]
+  ],
+  "2026-11-05": [
+   [
+    "09h00",
+    "Ministro da Secretaria de Comunicação Social da Presidência da República, Sidônio Palmeira",
+    "Palácio do Planalto",
+    "ministro-da-secretaria-de-comunicacao-social-da-presidencia-da-republica-sidonio-palmeira"
+   ],
+   [
+    "15h30",
+    "1ª Reunião do Conselho Nacional para Industrialização de Minerais Críticos e Estratégicos (CIMCE)",
+    "Palácio do Planalto",
+    "1a-reuniao-do-conselho-nacional-para-industrializacao-de-minerais-criticos-e-estrategicos-cimce"
+   ],
+   [
+    "17h00",
+    "Ministra da Casa Civil, Miriam Belchior, e Ministro da Justiça e Segurança Pública, Wellington César Lima e Silva",
+    "Palácio do Planalto",
+    "ministra-da-casa-civil-miriam-belchior-e-ministro-da-justica-e-seguranca-publica-wellington-cesar-lima-e-silva"
    ]
   ]
  }
