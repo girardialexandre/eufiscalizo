@@ -1,11 +1,11 @@
 // Gerado pelo coletor (coletor/coletar.mjs). Não editar à mão.
 // Fonte: agenda oficial do Presidente da República, Palácio do Planalto.
 window.AGENDA = {
- "atualizadoEm": "2026-11-05",
+ "atualizadoEm": "2026-11-06",
  "fonte": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica",
  "cobertura": {
   "de": "2023-01-01",
-  "ate": "2026-11-05"
+  "ate": "2026-11-06"
  },
  "dias": {
   "2023-01-01": [
@@ -35046,6 +35046,32 @@ window.AGENDA = {
     "Ministra da Casa Civil, Miriam Belchior, e Ministro da Justiça e Segurança Pública, Wellington César Lima e Silva",
     "Palácio do Planalto",
     "ministra-da-casa-civil-miriam-belchior-e-ministro-da-justica-e-seguranca-publica-wellington-cesar-lima-e-silva"
+   ]
+  ],
+  "2026-11-06": [
+   [
+    "10h00",
+    "Reunião Extraordinária do Conselho Nacional de Política Energética (CNPE)",
+    "Ministério de Minas e Energia",
+    "reuniao-extraordinaria-do-conselho-nacional-de-politica-energetica-cnpe"
+   ],
+   [
+    "15h00",
+    "Sanção do Projeto de Lei de Conversão nº 14/2026, que institui o Exame Nacional de Avaliação da Formação Médica (ENAMED)",
+    "Palácio do Planalto",
+    "sancao-do-projeto-de-lei-de-conversao-no-14-2026-que-institui-o-exame-nacional-de-avaliacao-da-formacao-medica-enamed"
+   ],
+   [
+    "16h00",
+    "Ministra da Casa Civil, Miriam Belchior, e Ministro da Justiça e Segurança Pública, Wellington César Lima e Silva",
+    "Palácio do Planalto",
+    "ministra-da-casa-civil-miriam-belchior-e-ministro-da-justica-e-seguranca-publica-wellington-cesar-lima-e-silva"
+   ],
+   [
+    "17h00",
+    "Ministro da Secretaria de Comunicação Social da Presidência da República, Sidônio Palmeira",
+    "Palácio do Planalto",
+    "ministro-da-secretaria-de-comunicacao-social-da-presidencia-da-republica-sidonio-palmeira"
    ]
   ]
  }
