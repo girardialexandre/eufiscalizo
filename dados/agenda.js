@@ -1,11 +1,11 @@
 // Gerado pelo coletor (coletor/coletar.mjs). Não editar à mão.
 // Fonte: agenda oficial do Presidente da República, Palácio do Planalto.
 window.AGENDA = {
- "atualizadoEm": "2026-11-08",
+ "atualizadoEm": "2026-11-09",
  "fonte": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica",
  "cobertura": {
   "de": "2023-01-01",
-  "ate": "2026-11-08"
+  "ate": "2026-11-09"
  },
  "dias": {
   "2023-01-01": [
@@ -35072,6 +35072,22 @@ window.AGENDA = {
     "Ministro da Secretaria de Comunicação Social da Presidência da República, Sidônio Palmeira",
     "Palácio do Planalto",
     "ministro-da-secretaria-de-comunicacao-social-da-presidencia-da-republica-sidonio-palmeira"
+   ]
+  ],
+  "2026-11-08": [
+   [
+    "11h00",
+    "Visita à Sala de Monitoramento do Enem 2026",
+    "INEP -  Setor de Indústrias Gráficas (SIG), Quadra 4, Lote 327 – Brasília",
+    "visita-a-sala-de-monitoramento-do-enem-2026"
+   ]
+  ],
+  "2026-11-09": [
+   [
+    "09h00",
+    "Partida para Antália, Turquia",
+    "Base Aérea de Brasília",
+    "partida-para-antalia-turquia"
    ]
   ]
  }
