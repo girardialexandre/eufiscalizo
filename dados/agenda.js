@@ -1,11 +1,11 @@
 // Gerado pelo coletor (coletor/coletar.mjs). Não editar à mão.
 // Fonte: agenda oficial do Presidente da República, Palácio do Planalto.
 window.AGENDA = {
- "atualizadoEm": "2026-11-10",
+ "atualizadoEm": "2026-11-11",
  "fonte": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica",
  "cobertura": {
   "de": "2023-01-01",
-  "ate": "2026-11-10"
+  "ate": "2026-11-11"
  },
  "dias": {
   "2023-01-01": [
@@ -35088,6 +35088,64 @@ window.AGENDA = {
     "Partida para Antália, Turquia",
     "Base Aérea de Brasília",
     "partida-para-antalia-turquia"
+   ]
+  ],
+  "2026-11-10": [
+   [
+    "04h00",
+    "Chegada a Antália, Turquia",
+    "Aeroporto de Antália",
+    "chegada-a-antalia-turquia"
+   ],
+   [
+    "17h30",
+    "Reunião bilateral com o Presidente da República da Turquia, Recep Tayyip Erdoğan",
+    "Antália, Turquia",
+    "reuniao-bilateral-com-o-presidente-da-republica-da-turquia-recep-tayyip-erdogan"
+   ]
+  ],
+  "2026-11-11": [
+   [
+    "11h45",
+    "Fotografia de família dos Chefes de Estado e de Governo",
+    "Centro de Exposições de Antália",
+    "fotografia-de-familia-dos-chefes-de-estado-e-de-governo"
+   ],
+   [
+    "12h15",
+    "Sessão de abertura da Cúpula de Líderes e apresentação cultural",
+    "Plenária Anadolu, Centro de Exposições de Antália",
+    "sessao-de-abertura-da-cupula-de-lideres-e-apresentacao-cultural"
+   ],
+   [
+    "14h00",
+    "Início da primeira parte do Segmento de Alto Nível para Chefes de Estado e de Governo",
+    "Plenária Anadolu, Centro de Exposições de Antália",
+    "inicio-da-primeira-parte-do-segmento-de-alto-nivel-para-chefes-de-estado-e-de-governo"
+   ],
+   [
+    "14h30",
+    "Reunião bilateral com o Primeiro-Ministro do Reino da Noruega, Jonas Gahr Støre",
+    "Sala de Bilaterais 9, Centro de Exposições de Antália",
+    "reuniao-bilateral-com-o-primeiro-ministro-do-reino-da-noruega-jonas-gahr-store"
+   ],
+   [
+    "15h00",
+    "Cúpula de Líderes sobre Florestas",
+    "Plenária Akdeniz, Centro de Exposições de Antália",
+    "cupula-de-lideres-sobre-florestas"
+   ],
+   [
+    "16h00",
+    "Declaração Nacional por ocasião da primeira parte do Segmento de Alto Nível para Chefes de Estado e de Governo",
+    "Plenária Anadolu, Centro de Exposições de Antália",
+    "declaracao-nacional-por-ocasiao-da-primeira-parte-do-segmento-de-alto-nivel-para-chefes-de-estado-e-de-governo"
+   ],
+   [
+    "18h30",
+    "Jantar de gala oferecido pelo Presidente da República da Turquia, Recep Tayyip Erdoğan, e a Senhora Emine Erdoğan",
+    "Zona Verde, Centro de Exposições de Antália",
+    "jantar-de-gala-oferecido-pelo-presidente-da-republica-da-turquia-recep-tayyip-erdogan-e-a-senhora-emine-erdogan"
    ]
   ]
  }
