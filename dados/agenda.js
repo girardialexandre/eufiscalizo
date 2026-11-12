@@ -1,11 +1,11 @@
 // Gerado pelo coletor (coletor/coletar.mjs). Não editar à mão.
 // Fonte: agenda oficial do Presidente da República, Palácio do Planalto.
 window.AGENDA = {
- "atualizadoEm": "2026-11-11",
+ "atualizadoEm": "2026-11-12",
  "fonte": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica",
  "cobertura": {
   "de": "2023-01-01",
-  "ate": "2026-11-11"
+  "ate": "2026-11-12"
  },
  "dias": {
   "2023-01-01": [
@@ -35146,6 +35146,26 @@ window.AGENDA = {
     "Jantar de gala oferecido pelo Presidente da República da Turquia, Recep Tayyip Erdoğan, e a Senhora Emine Erdoğan",
     "Zona Verde, Centro de Exposições de Antália",
     "jantar-de-gala-oferecido-pelo-presidente-da-republica-da-turquia-recep-tayyip-erdogan-e-a-senhora-emine-erdogan"
+   ]
+  ],
+  "2026-11-12": [
+   [
+    "13h00",
+    "Encontro bilateral com o Presidente da República do Irã, Masoud Pezeshkian",
+    "Local de hospedagem",
+    "encontro-bilateral-com-o-presidente-da-republica-do-ira-masoud-pezeshkian"
+   ],
+   [
+    "17h30",
+    "Encontro com a Sociedade Civil nacional e internacional",
+    "Plenária Akdeniz",
+    "encontro-com-a-sociedade-civil-nacional-e-internacional"
+   ],
+   [
+    "19h15",
+    "Partida para Manila, Filipinas",
+    "Aeroporto de Antália",
+    "partida-para-manila-filipinas"
    ]
   ]
  }
