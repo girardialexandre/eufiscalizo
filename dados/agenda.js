@@ -1,11 +1,11 @@
 // Gerado pelo coletor (coletor/coletar.mjs). Não editar à mão.
 // Fonte: agenda oficial do Presidente da República, Palácio do Planalto.
 window.AGENDA = {
- "atualizadoEm": "2026-11-13",
+ "atualizadoEm": "2026-11-14",
  "fonte": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica",
  "cobertura": {
   "de": "2023-01-01",
-  "ate": "2026-11-13"
+  "ate": "2026-11-14"
  },
  "dias": {
   "2023-01-01": [
@@ -35166,6 +35166,58 @@ window.AGENDA = {
     "Partida para Manila, Filipinas",
     "Aeroporto de Antália",
     "partida-para-manila-filipinas"
+   ]
+  ],
+  "2026-11-13": [
+   [
+    "13h00",
+    "Chegada a Manila",
+    "Terminal Maharlika, Base Aérea Villamor",
+    "chegada-a-manila"
+   ]
+  ],
+  "2026-11-14": [
+   [
+    "12h00",
+    "Cerimônia de boas-vindas",
+    "Centro de Convenções Internacional das Filipinas – PICC",
+    "cerimonia-de-boas-vindas"
+   ],
+   [
+    "12h15",
+    "Reunião restrita",
+    "Escritório privado, Sala de Conferências 5, Prédio dos Delegados, PICC",
+    "reuniao-restrita"
+   ],
+   [
+    "12h45",
+    "Reunião ampliada",
+    "Sala de Conferências 5, Prédio dos Delegados, PICC",
+    "reuniao-ampliada"
+   ],
+   [
+    "13h45",
+    "Declaração conjunta à imprensa",
+    "Sala de Conferências 5, Prédio dos Delegados, PICC",
+    "declaracao-conjunta-a-imprensa"
+   ],
+   [
+    "14h00",
+    "Almoço de Estado",
+    "Restaurante Amorsolo, Centro de Convenções Internacional das Filipinas",
+    "almoco-de-estado"
+   ],
+   [
+    "18h00",
+    "Audiência concedida ao Diretor-Presidente da empresa International Container Terminal Services – ICTSI, Enrique Razon",
+    "Resort Solaire, vila presidencial",
+    "audiencia-concedida-ao-diretor-presidente-da-empresa-international-container-terminal-services-2013-ictsi-enrique-razon"
+   ],
+   [
+    "18h30",
+    "Encerramento do Foro Empresarial Brasil-Filipinas",
+    "Resort Solaire, Forum 1ABC",
+    "encerramento-do-foro-empresarial-brasil-filipinas"
    ]
   ]
  }
