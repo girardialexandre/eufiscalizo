@@ -1,11 +1,11 @@
 // Gerado pelo coletor (coletor/coletar.mjs). Não editar à mão.
 // Fonte: agenda oficial do Presidente da República, Palácio do Planalto.
 window.AGENDA = {
- "atualizadoEm": "2026-11-14",
+ "atualizadoEm": "2026-11-15",
  "fonte": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica",
  "cobertura": {
   "de": "2023-01-01",
-  "ate": "2026-11-14"
+  "ate": "2026-11-15"
  },
  "dias": {
   "2023-01-01": [
@@ -35218,6 +35218,44 @@ window.AGENDA = {
     "Encerramento do Foro Empresarial Brasil-Filipinas",
     "Resort Solaire, Forum 1ABC",
     "encerramento-do-foro-empresarial-brasil-filipinas"
+   ]
+  ],
+  "2026-11-15": [
+   [
+    "09h00",
+    "Cerimônia de abertura da 49ª Cúpula da Associação de Nações do Sudeste Asiático (ASEAN)",
+    "Centro de Convenções Internacional das Filipinas",
+    "cerimonia-de-abertura-da-49a-cupula-da-associacao-de-nacoes-do-sudeste-asiatico-asean"
+   ],
+   [
+    "10h15",
+    "Reunião plenária da 49ª Cúpula da ASEAN",
+    "Centro de Convenções Internacional das Filipinas, Auditório 2",
+    "reuniao-plenaria-da-49a-cupula-da-asean"
+   ],
+   [
+    "11h00",
+    "Encontro bilateral com o Primeiro-Ministro do Canadá, Mark Carney",
+    "Centro de Convenções Internacional das Filipinas",
+    "encontro-bilateral-com-o-primeiro-ministro-do-canada-mark-carney"
+   ],
+   [
+    "11h45",
+    "Encontro bilateral com o Primeiro-Ministro de Singapura, Lawrence Wong",
+    "Centro de Convenções Internacional das Filipinas",
+    "encontro-bilateral-com-o-primeiro-ministro-de-singapura-lawrence-wong"
+   ],
+   [
+    "14h00",
+    "Partida para Madri",
+    "Base Aérea Villamo",
+    "partida-para-madri"
+   ],
+   [
+    "22h45",
+    "Chegada a Madri",
+    "Aeroporto Internacional de Madri",
+    "chegada-a-madri"
    ]
   ]
  }
