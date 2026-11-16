@@ -1,11 +1,11 @@
 // Gerado pelo coletor (coletor/coletar.mjs). Não editar à mão.
 // Fonte: agenda oficial do Presidente da República, Palácio do Planalto.
 window.AGENDA = {
- "atualizadoEm": "2026-11-15",
+ "atualizadoEm": "2026-11-16",
  "fonte": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica",
  "cobertura": {
   "de": "2023-01-01",
-  "ate": "2026-11-15"
+  "ate": "2026-11-16"
  },
  "dias": {
   "2023-01-01": [
@@ -35142,9 +35142,9 @@ window.AGENDA = {
     "declaracao-nacional-por-ocasiao-da-primeira-parte-do-segmento-de-alto-nivel-para-chefes-de-estado-e-de-governo"
    ],
    [
-    "18h30",
-    "Jantar de gala oferecido pelo Presidente da República da Turquia, Recep Tayyip Erdoğan, e a Senhora Emine Erdoğan",
-    "Zona Verde, Centro de Exposições de Antália",
+    "18h00",
+    "Encontro bilateral com a Presidente Encarregada da República Bolivariana da Venezuela, Delcy Rodríguez",
+    "Local de hospedagem",
     "jantar-de-gala-oferecido-pelo-presidente-da-republica-da-turquia-recep-tayyip-erdogan-e-a-senhora-emine-erdogan"
    ]
   ],
@@ -35256,6 +35256,44 @@ window.AGENDA = {
     "Chegada a Madri",
     "Aeroporto Internacional de Madri",
     "chegada-a-madri"
+   ]
+  ],
+  "2026-11-16": [
+   [
+    "11h00",
+    "Reunião restrita com o Primeiro-Ministro do Reino da Espanha, Pedro Sánchez",
+    "Complexo da Moncloa, Madri",
+    "reuniao-restrita-com-o-primeiro-ministro-do-reino-da-espanha-pedro-sanchez"
+   ],
+   [
+    "11h30",
+    "Reunião ampliada com o Primeiro-Ministro do Reino da Espanha, Pedro Sánchez",
+    "Complexo da Moncloa, Madri",
+    "reuniao-ampliada-com-o-primeiro-ministro-do-reino-da-espanha-pedro-sanchez"
+   ],
+   [
+    "14h30",
+    "Partida para Praia, Cabo Verde",
+    "Base Aérea de Torrejón de Ardoz",
+    "partida-para-praia-cabo-verde"
+   ],
+   [
+    "16h50",
+    "Chegada a Praia, Cabo Verde",
+    "Aeroporto Internacional Nelson Mandela",
+    "chegada-a-praia-cabo-verde"
+   ],
+   [
+    "18h20",
+    "Partida para Brasília",
+    "Aeroporto Internacional Nelson Mandela",
+    "partida-para-brasilia"
+   ],
+   [
+    "22h10",
+    "Chegada a Brasília",
+    "Base Aérea de Brasília",
+    "chegada-a-brasilia"
    ]
   ]
  }
