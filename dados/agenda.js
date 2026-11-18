@@ -1,11 +1,11 @@
 // Gerado pelo coletor (coletor/coletar.mjs). Não editar à mão.
 // Fonte: agenda oficial do Presidente da República, Palácio do Planalto.
 window.AGENDA = {
- "atualizadoEm": "2026-11-17",
+ "atualizadoEm": "2026-11-18",
  "fonte": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica",
  "cobertura": {
   "de": "2023-01-01",
-  "ate": "2026-11-17"
+  "ate": "2026-11-18"
  },
  "dias": {
   "2023-01-01": [
@@ -35294,6 +35294,26 @@ window.AGENDA = {
     "Chegada a Brasília",
     "Base Aérea de Brasília",
     "chegada-a-brasilia"
+   ]
+  ],
+  "2026-11-18": [
+   [
+    "10h00",
+    "Chefe do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta Neto",
+    "Palácio da Alvorada",
+    "chefe-do-gabinete-pessoal-do-presidente-da-republica-oswaldo-malatesta-neto"
+   ],
+   [
+    "14h40",
+    "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcelo Weick",
+    "Palácio da Alvorada",
+    "secretario-especial-para-assuntos-juridicos-da-casa-civil-marcelo-weick"
+   ],
+   [
+    "15h00",
+    "Ministra da Casa Civil, Miriam Belchior",
+    "Palácio da Alvorada",
+    "ministra-da-casa-civil-miriam-belchior"
    ]
   ]
  }
