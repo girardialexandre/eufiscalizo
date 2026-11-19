@@ -1,11 +1,11 @@
 // Gerado pelo coletor (coletor/coletar.mjs). Não editar à mão.
 // Fonte: agenda oficial do Presidente da República, Palácio do Planalto.
 window.AGENDA = {
- "atualizadoEm": "2026-11-18",
+ "atualizadoEm": "2026-11-19",
  "fonte": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica",
  "cobertura": {
   "de": "2023-01-01",
-  "ate": "2026-11-18"
+  "ate": "2026-11-19"
  },
  "dias": {
   "2023-01-01": [
@@ -35314,6 +35314,50 @@ window.AGENDA = {
     "Ministra da Casa Civil, Miriam Belchior",
     "Palácio da Alvorada",
     "ministra-da-casa-civil-miriam-belchior"
+   ]
+  ],
+  "2026-11-19": [
+   [
+    "09h30",
+    "Assinatura do decreto que regulamenta o fim da escala de trabalho 6x1",
+    "Palácio do Planalto",
+    "assinatura-do-decreto-que-regulamenta-o-fim-da-escala-de-trabalho-6x1"
+   ],
+   [
+    "12h00",
+    "Partida para Matupá (MT)",
+    "Base Aérea de Brasília",
+    "partida-para-matupa-mt"
+   ],
+   [
+    "12h30",
+    "Chegada a Matupá (MT)",
+    "Aeroporto Regional Orlando Villas-Bôas",
+    "chegada-a-matupa-mt"
+   ],
+   [
+    "13h00",
+    "Cerimônia de assinatura de Portaria do Ministério da Justiça e Segurança Pública que declara de posse permanente dos Povos Indígenas Mebêngôkre e Yudjá a Terra Indígena Kapôt Nhinore",
+    "Instituto Raoni – Peixoto de Azevedo (MT)",
+    "cerimonia-de-assinatura-de-portaria-do-ministerio-da-justica-e-seguranca-publica-que-declara-de-posse-permanente-dos-povos-indigenas-mebengokre-e-yudja-a-terra-indigena-kapot-nhinore"
+   ],
+   [
+    "14h00",
+    "Visita reservada ao Cacique Raoni Metuktire",
+    "Peixoto de Azevedo (MT)",
+    "visita-reservada-ao-cacique-raoni-metuktire"
+   ],
+   [
+    "15h10",
+    "Partida para Brasília",
+    "Aeroporto Regional Orlando Villas-Bôas",
+    "partida-para-brasilia"
+   ],
+   [
+    "17h40",
+    "Chegada a Brasília",
+    "Base Aérea de Brasília",
+    "chegada-a-brasilia"
    ]
   ]
  }
