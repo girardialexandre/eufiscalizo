@@ -1,11 +1,11 @@
 // Gerado pelo coletor (coletor/coletar.mjs). Não editar à mão.
 // Fonte: agenda oficial do Presidente da República, Palácio do Planalto.
 window.AGENDA = {
- "atualizadoEm": "2026-11-22",
+ "atualizadoEm": "2026-11-23",
  "fonte": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica",
  "cobertura": {
   "de": "2023-01-01",
-  "ate": "2026-11-22"
+  "ate": "2026-11-23"
  },
  "dias": {
   "2023-01-01": [
@@ -35358,6 +35358,26 @@ window.AGENDA = {
     "Chegada a Brasília",
     "Base Aérea de Brasília",
     "chegada-a-brasilia"
+   ]
+  ],
+  "2026-11-23": [
+   [
+    "09h00",
+    "Chefe do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
+    "Palácio da Alvorada",
+    "chefe-do-gabinete-pessoal-do-presidente-da-republica-oswaldo-malatesta"
+   ],
+   [
+    "11h00",
+    "Ministro da Defesa, José Múcio",
+    "Palácio da Alvorada",
+    "ministro-da-defesa-jose-mucio"
+   ],
+   [
+    "15h00",
+    "Ministra da Casa Civil, Miriam Belchior",
+    "Palácio do Planalto",
+    "ministra-da-casa-civil-miriam-belchior"
    ]
   ]
  }
