@@ -1,11 +1,11 @@
 // Gerado pelo coletor (coletor/coletar.mjs). Não editar à mão.
 // Fonte: agenda oficial do Presidente da República, Palácio do Planalto.
 window.AGENDA = {
- "atualizadoEm": "2026-11-23",
+ "atualizadoEm": "2026-11-24",
  "fonte": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica",
  "cobertura": {
   "de": "2023-01-01",
-  "ate": "2026-11-23"
+  "ate": "2026-11-24"
  },
  "dias": {
   "2023-01-01": [
@@ -35378,6 +35378,50 @@ window.AGENDA = {
     "Ministra da Casa Civil, Miriam Belchior",
     "Palácio do Planalto",
     "ministra-da-casa-civil-miriam-belchior"
+   ]
+  ],
+  "2026-11-24": [
+   [
+    "09h30",
+    "Chefe do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
+    "Palácio da Alvorada",
+    "chefe-do-gabinete-pessoal-do-presidente-da-republica-oswaldo-malatesta"
+   ],
+   [
+    "11h00",
+    "Cerimônia de Entrega de Cartas Credenciais",
+    "Palácio do Planalto",
+    "cerimonia-de-entrega-de-cartas-credenciais"
+   ],
+   [
+    "13h00",
+    "Partida para São Paulo",
+    "Base Aérea de Brasília",
+    "secretario-especial-para-assuntos-juridicos-da-casa-civil-marcelo-weick"
+   ],
+   [
+    "14h20",
+    "Chegada a São Paulo",
+    "Aeroporto de Congonhas",
+    "ministra-da-casa-civil-miriam-belchior"
+   ],
+   [
+    "15h00",
+    "Exéquias do Professor Fábio Konder Comparato",
+    "Cemitério da Consolação – Avenida Dr. Arnaldo, São Paulo",
+    "exequias-do-professor-fabio-konder-comparato"
+   ],
+   [
+    "17h10",
+    "Partida para Brasília",
+    "Aeroporto de Congonhas",
+    "partida-para-brasilia"
+   ],
+   [
+    "18h30",
+    "Chegada a Brasília",
+    "Base Aérea de Brasília",
+    "chegada-a-brasilia"
    ]
   ]
  }
