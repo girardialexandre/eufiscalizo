@@ -1,11 +1,11 @@
 // Gerado pelo coletor (coletor/coletar.mjs). Não editar à mão.
 // Fonte: agenda oficial do Presidente da República, Palácio do Planalto.
 window.AGENDA = {
- "atualizadoEm": "2026-11-24",
+ "atualizadoEm": "2026-11-25",
  "fonte": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica",
  "cobertura": {
   "de": "2023-01-01",
-  "ate": "2026-11-24"
+  "ate": "2026-11-25"
  },
  "dias": {
   "2023-01-01": [
@@ -35375,8 +35375,8 @@ window.AGENDA = {
    ],
    [
     "15h00",
-    "Ministra da Casa Civil, Miriam Belchior",
-    "Palácio do Planalto",
+    "Presidente da Petrobras, Magda Chambriard",
+    "Palácio da Alvorada",
     "ministra-da-casa-civil-miriam-belchior"
    ]
   ],
@@ -35422,6 +35422,32 @@ window.AGENDA = {
     "Chegada a Brasília",
     "Base Aérea de Brasília",
     "chegada-a-brasilia"
+   ]
+  ],
+  "2026-11-25": [
+   [
+    "09h30",
+    "Chefe do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
+    "Palácio da Alvorada",
+    "chefe-do-gabinete-pessoal-do-presidente-da-republica-oswaldo-malatesta"
+   ],
+   [
+    "10h30",
+    "Ministro da Justiça e Segurança Pública, Wellington César Lima e Silva",
+    "Palácio da Alvorada",
+    "ministro-da-justica-e-seguranca-publica-wellington-cesar-lima-e-silva"
+   ],
+   [
+    "14h40",
+    "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcelo Weick",
+    "Palácio da Alvorada",
+    "secretario-especial-para-assuntos-juridicos-da-casa-civil-marcelo-weic"
+   ],
+   [
+    "15h00",
+    "Ministra da Casa Civil, Miriam Belchior",
+    "Palácio da Alvorada",
+    "ministra-da-casa-civil-miriam-belchior"
    ]
   ]
  }
