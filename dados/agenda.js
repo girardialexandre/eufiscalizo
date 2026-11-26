@@ -1,11 +1,11 @@
 // Gerado pelo coletor (coletor/coletar.mjs). Não editar à mão.
 // Fonte: agenda oficial do Presidente da República, Palácio do Planalto.
 window.AGENDA = {
- "atualizadoEm": "2026-11-25",
+ "atualizadoEm": "2026-11-26",
  "fonte": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica",
  "cobertura": {
   "de": "2023-01-01",
-  "ate": "2026-11-25"
+  "ate": "2026-11-26"
  },
  "dias": {
   "2023-01-01": [
@@ -35448,6 +35448,26 @@ window.AGENDA = {
     "Ministra da Casa Civil, Miriam Belchior",
     "Palácio da Alvorada",
     "ministra-da-casa-civil-miriam-belchior"
+   ]
+  ],
+  "2026-11-26": [
+   [
+    "09h00",
+    "Ministra da Casa Civil, Miriam Belchior",
+    "Palácio da Alvorada",
+    "ministra-da-casa-civil-miriam-belchior"
+   ],
+   [
+    "11h00",
+    "Governador eleito de Minas Gerais, Senador Cleitinho",
+    "Palácio da Alvorada",
+    "governador-eleito-de-minas-gerais-senador-cleitinho"
+   ],
+   [
+    "15h00",
+    "Ministro da Educação, Leonardo Barchini",
+    "Palácio da Alvorada",
+    "ministro-da-educacao-leonardo-barchini"
    ]
   ]
  }
