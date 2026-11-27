@@ -1,11 +1,11 @@
 // Gerado pelo coletor (coletor/coletar.mjs). Não editar à mão.
 // Fonte: agenda oficial do Presidente da República, Palácio do Planalto.
 window.AGENDA = {
- "atualizadoEm": "2026-11-26",
+ "atualizadoEm": "2026-11-27",
  "fonte": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica",
  "cobertura": {
   "de": "2023-01-01",
-  "ate": "2026-11-26"
+  "ate": "2026-11-27"
  },
  "dias": {
   "2023-01-01": [
@@ -35468,6 +35468,50 @@ window.AGENDA = {
     "Ministro da Educação, Leonardo Barchini",
     "Palácio da Alvorada",
     "ministro-da-educacao-leonardo-barchini"
+   ]
+  ],
+  "2026-11-27": [
+   [
+    "08h00",
+    "Partida para o Rio de Janeiro",
+    "Base Aérea de Brasília",
+    "partida-para-o-rio-de-janeiro"
+   ],
+   [
+    "09h20",
+    "Chegada ao Rio de Janeiro",
+    "Aeroporto Santos Dumont",
+    "chegada-ao-rio-de-janeiro"
+   ],
+   [
+    "10h00",
+    "Visita a exposição dos estudantes da Universidade Federal Fluminense (UFF)",
+    "Teatro Popular Oscar Niemeyer, Caminho Niemeyer, Niterói (RJ)",
+    "visita-a-exposicao-dos-estudantes-da-universidade-federal-fluminense-uff"
+   ],
+   [
+    "11h15",
+    "Diálogo com a Juventude e o Movimento Estudantil Fluminense",
+    "Praça do Povo, Caminho Niemeyer, Niterói (RJ)",
+    "dialogo-com-a-juventude-e-o-movimento-estudantil-fluminense"
+   ],
+   [
+    "14h30",
+    "Visita ao Programa de Atenção ao Idoso do Hospital Universitário Gaffrée e Guinle (HUGG) da UNIRIO",
+    "Rua Mariz e Barros, Rio de Janeiro",
+    "visita-ao-programa-de-atencao-ao-idoso-do-hospital-universitario-gaffree-e-guinle-hugg-da-unirio"
+   ],
+   [
+    "17h10",
+    "Partida para Brasília",
+    "Aeroporto Santos Dumont",
+    "partida-para-brasilia"
+   ],
+   [
+    "18h30",
+    "Chegada a Brasília",
+    "Base Aérea de Brasília",
+    "chegada-a-brasilia"
    ]
   ]
  }
